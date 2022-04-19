@@ -19,6 +19,7 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #3a3a3a;
+
 }
 
 #logo {
@@ -90,4 +91,36 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Club Ethos */
+
+#club-ethos {
+    height:600px;
+}
+
+#left-about {
+    float:left;
+    width:32%;
+    padding-top: 30px;
+    background-color: blue;
+}
+#right-about {
+    float:right;
+    width:32%;
+    padding-top: 30px;
+    background-color: green;
+}
+#center-about {
+    width:32%;
+    margin: 0 auto;
+    background-color:red;
+}
+
+.left-about-heading {
+    width: 70%;
+    float: right;
+    line-height: 22px;
+    clear: both;
+    margin-bottom: 50px;
 }
