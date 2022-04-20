@@ -29,19 +29,22 @@ h1, h2 {
     padding-left: 15px;
 }
 
-#menu{
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-
 #menu, #logo{
     line-height: 75px;
 }
 
-#menu li{
+#menu {
     float: right;
     list-style-type: none;
     margin-right: 15px;
+    font-size: 110%;
+    letter-spacing: 4px;
+    width: 30%;
+}
+
+#menu li {
+    display: inline-block;
+    width:30%;
 }
 
 #menu a{
