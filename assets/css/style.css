@@ -36,15 +36,15 @@ h1, h2 {
 #menu {
     float: right;
     list-style-type: none;
-    margin-right: 15px;
     font-size: 110%;
     letter-spacing: 4px;
     width: 30%;
 }
 
-#menu li {
-    display: inline-block;
+#menu > li {
+    display: inline;
     width:30%;
+    padding-right: 30px;
 }
 
 #menu a{
@@ -189,4 +189,25 @@ hr{
 
 #meetup h2 {
     color: whitesmoke;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+#social-networks {
+    text-align: center;
+}
+
+#social-networks li {
+    display:inline;
+}
+
+#social-networks i {
+    color:#3a3a3a;
+    margin: 1%;
+    padding: 5%;
+    font-size: 160%;
 }
