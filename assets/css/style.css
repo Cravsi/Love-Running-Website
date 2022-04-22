@@ -38,9 +38,8 @@ h1, h2 {
     list-style-type: none;
     font-size: 110%;
     letter-spacing: 4px;
-    width: 30%;
+    width: 50%;
 }
-
 #menu > li {
     display: inline;
     width:30%;
@@ -240,5 +239,16 @@ footer {
     }
     hr{
         border:none;
+    }
+}
+
+@media screen and (max-width:1140px) {
+    #menu {
+        clear:left;
+        float:left;
+        width:100%;
+        margin-left:30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
