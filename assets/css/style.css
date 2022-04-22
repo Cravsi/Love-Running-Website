@@ -211,3 +211,15 @@ footer {
     padding: 5%;
     font-size: 160%;
 }
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count:4;
+    column-gap: 3px;
+}
+
+#photos > img {
+    width: 100%;
+    margin: 1.5px 0 1.5px 0;
+}
