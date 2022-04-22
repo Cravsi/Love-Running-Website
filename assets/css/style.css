@@ -223,3 +223,22 @@ footer {
     width: 100%;
     margin: 1.5px 0 1.5px 0;
 }
+
+@media screen and (max-width:1000px) {
+    #club-ethos {
+        width:80%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #right-about, #left-about {
+        float :left;
+        width: 90%;
+        text-align: left;
+    }
+    #center-about{
+        clear:both;
+    }
+    hr{
+        border:none;
+    }
+}
