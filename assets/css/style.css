@@ -113,7 +113,7 @@ h1, h2 {
     padding-top: 30px;
 }
 #center-about {
-    width:32%;
+    min-width:32%;
     margin: 0 auto;
 }
 
@@ -223,22 +223,41 @@ footer {
     margin: 1.5px 0 1.5px 0;
 }
 
+/* ----------------- MOBILE DEVICES -------------------------- */
 @media screen and (max-width:1000px) {
     #club-ethos {
-        width:80%;
+        min-width:90%;
         height: 1200px;
         margin: 0 auto;
     }
     #right-about, #left-about {
-        float :left;
-        width: 90%;
-        text-align: left;
+        float :none;
+        width: 100%;
+        padding-top: 0;
     }
     #center-about{
         clear:both;
+        margin: 0 auto;
     }
     hr{
         border:none;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: 100%;
+        float: none;
+
+    }
+
+    .left-about-heading h2, .right-about-heading h2{
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .left-about-heading p, .right-about-heading p{
+        padding: 0 1.0rem;
+        text-align: center;
     }
 }
 
